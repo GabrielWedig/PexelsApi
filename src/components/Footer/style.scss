@@ -1,0 +1,13 @@
+@import '../../app.scss';
+
+.rodape {
+  width: 100%;
+  height: 12%;
+  background-color: $primaryColor;
+  @include flexCenter();
+
+  p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+  }
+}
