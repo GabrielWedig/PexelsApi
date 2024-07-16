@@ -15,3 +15,4 @@ Iniciará o projeto em: (http://localhost:3000/)
 - React.JS
 - SASS
 - API/fetch
+- Node 16

@@ -1,23 +1,18 @@
-@import '../../app.scss';
+@import "../../app.scss";
 
 .card {
-  font-family: 'Roboto', sans-serif;
-  width: 100%;
-  height: 490px;
+  font-family: "Roboto", sans-serif;
+  width: max-content;
   box-shadow: 1px 1px 10px black;
   background-color: #fff;
   border-radius: 5px;
 
   img {
     border-radius: 5px 5px 0 0;
-    width: 100%;
-    height: 90%;
   }
 
   div {
-    width: calc(100% - 2rem);
-    height: calc(10% - 2rem);
-    padding: 1rem;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;

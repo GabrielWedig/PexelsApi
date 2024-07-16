@@ -36,7 +36,7 @@ const Main = () => {
         {card}
       </section>
 
-      <div>
+      <div className='conteudo-box'>
         {hideButton && 
           <button className="botao" onClick={() => {
             setPagina(pagina - 1)
